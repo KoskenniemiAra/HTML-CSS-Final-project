@@ -2,7 +2,7 @@
 body {
 	margin: 0;
 	background-color: #FFFFFF;
-	width:100%;
+	width: 100%;
 
 }
 
@@ -16,8 +16,8 @@ body {
 }
 
 .panelButton {
-	background-color:#7BC5F4;
-	color:#FFFFFF;
+	background-color: #7BC5F4;
+	color: #FFFFFF;
 	width: 134px;
 	height: 40px;
 	text-align: middle;
@@ -29,16 +29,17 @@ body {
 	width: 100%;
 	height: 86px;
 	background-color: #2D719D;
+	top: 0;
 	position: fixed;
 }
 
 #search {
-	height:38px;
-	width:300px;
+	height: 38px;
+	width: 300px;
 	color:#000000;
   	font-size: 14px;
   	padding: 0px;
-  	border:0px;
+  	border: 0px;
   	border-radius: 7px;
 }
 
@@ -46,7 +47,7 @@ body {
 	flex-direction: column;
 	width: 254px;
 	top: 88px;
-	position:fixed;
+	position: fixed;
 	background-color: #2D719D;
 	height:100%;
 }
@@ -81,12 +82,15 @@ body {
 
 .content {
 	margin-left: 270px;
+	margin-top: 88px;
 	height: 1500px;
 }
 
 .itemMap {
+	display: flex;
+	justify-content: flex-start;
 	font-size: 11px;
-	float: left;
+	
 }
 
 .itemMap a {
@@ -98,7 +102,7 @@ body {
 	height: 264px;
 	right: 0;
 	background-color: #2D719D;
-	
+	bottom: 0;
 	margin-left: 254px;
 	text-align: middle;
 }
@@ -113,7 +117,6 @@ body {
 	color: #7BC5F4;
 }
 
-
 .footerTD{
 	width: 100%;
 }
@@ -122,4 +125,42 @@ body {
 	margin-left:254px;
 	width: 25%;
 	text-align: center;
+}
+
+.detailed {
+	display: flex;
+	margin-left: 45px;
+	margin-top: 15px;
+	justify-content: flex-start;
+}
+.picture p {
+	margin-left: 4px;
+	margin-top: 15px;
+	font-size: 18px;
+	color: black;
+}
+
+.dot {
+	height: 54px;
+	width: 54px;
+	background-color:black;
+	border-radius: 50%;
+	display: inline-block;
+	border: 2px;
+	border-color: green;
+}
+
+.detailedPriceMenu {
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	width: 160px;
+	flex-wrap: wrap;
+	margin-left: 80px
+}
+
+.detailed h1 {
+	font-size: 20px;
+	font-color: black;
+	font-weight: bold;
 }
