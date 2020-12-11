@@ -8,10 +8,13 @@ body {
 
 .panelTD {
 	font-size: 14px;
-	float: right;
 	line-height: 78px;
 	padding-left: 0px;
 	padding-right: 36px;
+}
+
+.fa-search {
+	margin-left: -30px;
 }
 
 .FirstButton {
