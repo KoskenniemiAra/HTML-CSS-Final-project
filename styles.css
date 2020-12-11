@@ -1,7 +1,7 @@
 
 body {
 	margin: 0;
-	background-color: #FFFFFF;
+	background-color: #afdafa;
 	width:100%;
 	font-family: 'Roboto', sans-serif;
 }
@@ -96,6 +96,12 @@ body {
 	background-color: #027DB4;
 }
 
+.contentDetailed {
+	width: 650px;
+	margin-left: 270px;
+	margin-top: 88px;
+	height: 420px;
+}
 .content {
 	margin-left: 270px;
 	margin-top: 88px;
@@ -104,14 +110,10 @@ body {
 
 .itemMap {
 	display: flex;
+	width: 400px;
 	justify-content: flex-start;
 	font-size: 11px;
-	
-}
-
-.itemMap a {
-	text-decoration: none;
-	color: black;
+	top: 0;
 }
 
 .footer {
@@ -144,10 +146,15 @@ body {
 }
 
 .detailed {
+	width: 650px;
 	display: flex;
 	margin-left: 45px;
 	margin-top: 15px;
 	justify-content: flex-start;
+}
+
+.picture {
+	width: 350px;
 }
 .picture p {
 	margin-left: 4px;
@@ -166,21 +173,361 @@ body {
 	border-color: green;
 }
 
-.detailedPriceMenu {
+.itemName {
 	display: flex;
 	justify-content: flex-start;
 	align-content: flex-start;
-	width: 160px;
+	width: 182px;
+	height: 65px;
 	flex-wrap: wrap;
-	margin-left: 80px
+	margin-left: 4px;
 }
 
+.nameFix {
+	width: 182px;
+}
 .detailed h1 {
 	font-size: 20px;
 	color: black;
 	font-weight: bold;
 }
 
+.detailedPriceContainer {
+	width: 300px;
+	
+	flex-direction: column;
+}
+
+.detailedPrice {
+	display: flex;
+	margin-left: 4px;
+	width: 192px;
+	height: 50px;
+}
+
+.priceBox {
+	display: flex;
+	width: 96px;
+	height: 50px;
+	margin-top: 8px;
+}
+
+.stock {
+	display: flex;
+	width: 192px;
+	margin-top: 12px;
+}
+
+.inStock {
+	background-color: #95F204;
+	border-radius: 5px;
+	width: 58px;
+	height: 20px;
+}
+
+.inStock p {
+	font-size: 12px;
+	margin: 0px;
+	margin-left: 4px;
+	margin-top: 3px;
+}
+
+.VAT {
+	flex-direction: column;
+}
+
+.VAT p {
+	font-size: 8px;
+	color: #333333;
+	margin-left: 40px;
+}
+
+.seperatorH {
+	width: 218px;
+	height: 1px;
+	background-color: #7BC5F4;
+}
+
+.toCart {
+	display: flex;
+}
+.cartButton {
+	background-color: #95F204;
+	color: #FFFFFF;
+	width: 121px;
+	height: 65px;
+	border: 0px;
+	border-radius: 8px;
+	margin-left: 40px;
+	margin-top: 16px;
+	cursor: pointer;
+	outline: none;
+}
+
+.cartText {
+	font-size: 14px;
+	margin-bottom: 7px;
+}
+
+.itemAmount {
+	margin-top: 16px;
+	margin-left: 25px;
+	align-self: center;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  	-webkit-appearance: none;
+ 	 margin: 0;
+}
+
+input[type=number] {
+  	-moz-appearance: textfield;
+}
+
+.memorySize {
+	display: flex;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+
+.memorySizeButton {
+	font-size: 13px;
+	background-color: #FFFFFF;
+	color: #02A7F0;
+	outline: none;
+	border: 0px;
+	width: 53px;
+	height: 21px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.delivery {
+	flex-direction: column;
+	margin-left: 79px;
+	margin-top: 20px;
+}
+
+.delivery p {
+	font-size: 10px;
+	color: #333333;
+}
+
+.descriptionSeperator {
+	width: 393px;
+	height: 1px;
+	background-color: #7BC5F4;
+	margin-left: 94px;
+}
+
+.descriptionContainer {
+	width: 650px;
+	margin-top: 10px;
+	height: 1000px;
+	margin-left: 254px;
+}
+
+.descMenu {
+	margin-left: 145px;
+	margin-top: 14px;
+}
+.descButton1 {
+	background-color: #7BC5F4;
+	color: #FFFFFF;
+	height: 35px;
+	width: 135px;
+	outline: none;
+	border-radius: 5px 0 0 5px;
+	border: 0px;
+	padding: 0px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.descButton2 {
+	background-color: #FFFFFF;
+	color: #7BC5F4;
+	height: 35px;
+	width: 150px;
+	outline: none;
+	border-radius: 0 5px 5px 0;
+	border: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.descTextContainer1 {
+	margin-top: 44px;
+	margin-left: 57px;
+	width: 575px;
+}
+.descTextContainer2 {
+	margin-top: 44px;
+	margin-left: 57px;
+	width: 575px;
+}
+
+.descTextContainer2 h1 {
+	font-size: 25px;
+	font-weight: medium;
+	color: #7BC5F4;
+}
+
+.descTextContainer2 p {
+	font-size: 15px;
+	font-weight: normal;
+	color: black;
+}
+
+.descText {
+	margin-top: 20px;
+	width: 480px;
+	margin-bottom: 33px;
+}
+
+.contenthead1 h1 {
+	margin: 0px;
+	margin-top: 16px;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+.contenthead2 h1 {
+	color: #FFFFFF;
+	margin: 0px;
+	margin-top: 16px;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content1 p {
+	margin: 0px;
+	margin-top: 16px;
+	font-size: 14px;
+	color: #333333;
+	font-weight: normal;
+}
+.content2 p {
+	color: #FFFFFF;
+	margin: 0px;
+	margin-top: 16px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.technicalContent1 {
+	display: flex;
+	flex-wrap: wrap;
+	height: 440px;
+	width: 552px;
+}
+
+.contenthead1 {
+	background-color: #FFFFFF;
+	height: 55px;
+	width: 195px;
+}
+.contenthead2 {
+	background-color: #7BC5F4;
+	height: 55px;
+	width: 195px;
+}
+.content1 {
+	height: 55px;
+	width: 355px;
+	
+}
+.content2 {
+	height: 55px;
+	width: 355px;
+
+	background-color: #7BC5F4;
+}
+
+.bottomInfo {
+	display: flex;
+	flex-wrap: wrap;
+	width: 560px;
+	height: 200px;
+
+}
+
+.bottomRowLeft {
+	display: flex;
+	width: 230px;
+	height: 32px;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+ .bottomRowRight {
+ 	display: flex;
+ 	margin-left: 67px;
+ 	height: 32px;
+ 	width: 230px;
+	margin-top: 25px;
+ }
+
+.bottomInfo2{
+	display: flex;
+	flex-wrap: wrap;
+	width: 560px;
+	height: 140px;
+}
+.bottomRowLeft2 {
+	display: flex;
+	width: 230px;
+	height: 100px;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+ .bottomRowRight2 {
+ 	display: flex;
+ 	margin-left: 67px;
+ 	height: 100px;
+ 	width: 230px;
+	margin-top: 60px;
+ }
+
+.rightSide{
+	margin-left: 950px;
+	top: 134px;
+	height: 1200px;
+	position: absolute;
+	z-index: 0;
+	flex-direction: column;
+	width: 200px; 
+}
+
+.rightSide h1 {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+.rightSide h2 {
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-top: 10px;
+
+
+}
+
+.sideSeperator {
+	height: 1px;
+	width: 180px;
+	margin-bottom: 20px;
+	background-color: #7BC5F4;
+}
+
+.phoneContainer {
+	margin-bottom: 40px;
+	margin-left: 22px;
+}
 .TopPanel {
 	display: flex;
 	flex-direction: row;
@@ -190,12 +537,15 @@ body {
 	align-items: center;
 	max-width: 1400px;
 	top: 0;
+	z-index: 1;
 }
 
 .container {
 	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: #FFFFFF;
+	padding-top: 5px;
 }
 
 .content {
