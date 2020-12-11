@@ -8,10 +8,13 @@ body {
 
 .panelTD {
 	font-size: 14px;
-	float: right;
 	line-height: 78px;
 	padding-left: 0px;
 	padding-right: 36px;
+}
+
+.fa-search {
+	margin-left: -30px;
 }
 
 .FirstButton {
@@ -117,12 +120,11 @@ body {
 }
 
 .footer {
-	height: 264px;
 	right: 0;
 	background-color: #2D719D;
 	bottom: 0;
-	margin-left: 254px;
 	text-align: middle;
+	padding-left: 254px;
 }
 
 .footer h1 {
@@ -143,6 +145,12 @@ body {
 	margin-left:254px;
 	width: 25%;
 	text-align: center;
+}
+
+.copyright {
+	color: #AAAAAA;
+	text-align: center;
+	font-size: 13px;
 }
 
 .detailed {
@@ -537,7 +545,7 @@ input[type=number] {
 	align-items: center;
 	max-width: 1400px;
 	top: 0;
-	z-index: 1;
+	z-index: 10000;
 }
 
 .container {
@@ -548,11 +556,21 @@ input[type=number] {
 	padding-top: 5px;
 }
 
-.content {
+.featured {
+	margin-top: 82px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 320px;
+	padding-top: 30px;
+}
+
+.maincontent {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	margin-top: 82px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-left: 284px;
 }
 
 .productbox {
@@ -566,6 +584,13 @@ input[type=number] {
 	border-color: #D7D7D7;
 	border-radius: 20px;
 	margin-left: 30px;
+	margin-bottom: 30px;
+	box-shadow: 7px 7px 5px #A7A7A7;
+}
+
+.productbox:hover {
+	transform: translateY(-5px);
+	z-index: 10;
 }
 
 .Productname {
@@ -577,7 +602,6 @@ input[type=number] {
 	font-size: 13px;
 	color: #7F7F7F;
 	align-self: flex-start;
-	padding-left: 20px;
 }
 
 .Productprice {
@@ -598,4 +622,240 @@ input[type=number] {
 
 .BuyButton:hover {
 	background-color: #70B603;
+}
+
+.return {
+	font-size: 70px;
+	padding-left: 20px;
+	color: #38B6FF;
+}
+
+.fa-long-arrow-alt-left {
+	color: #38B6FF;
+}
+
+.sidebarshop {
+	background-color: #2D719D;
+	width: 100px;
+	height: 100%;
+	position: fixed;
+}
+
+.maincartarea {
+	margin-left: 120px;
+	margin-top: 82px;
+}
+
+.ShopCart {
+	font-size: 16px;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+.bluecart {
+	color: #7BC5F4;
+}
+
+.blackcart {
+	color: black;
+}
+
+.fa-user {
+	color: black;
+}
+
+.CartItem {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+.Itempicture {
+	padding-left: 30px;
+}
+
+.Cartproductinfo {
+	padding-left: 30px;
+}
+
+.Cartproductname {
+	color: #0000BF;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.productnumber {
+	font-size: 10px;
+	color: #AAAAAA;
+	margin-top: 40px;
+}
+
+.minus {
+	margin-left: auto;
+	font-size: 32px;
+	color: #D9001B;
+	margin-top: 16px;
+}
+
+.buyamount {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.amount {
+	font-size: 10px;
+	color: #0000BF;
+	padding-bottom: 18px;
+}
+
+.amountcounter {
+	font-size: 10px;
+	border: solid 1px #000000;
+	padding-left: 12px;
+}
+
+.plus {
+	font-size: 22px;
+	color: #04D919;
+	margin-top: 23px;
+}
+
+.fa-trash-alt {
+	margin-top: 26px;
+	margin-left: 30px;
+}
+
+.pricestuff {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.pricetext {
+	font-size: 10px;
+	color: #0000BF;
+	padding-bottom: 18px;
+}
+
+.priceamount {
+	font-size: 12px;
+}
+
+.totalcosts {
+	display: flex;
+	flex-direction: row;
+	font-size: 12px;
+}
+
+.totalcosttext {
+	margin-left: auto;
+	margin-right: 58px;
+}
+
+.Shippingcosttext {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.deliverytime {
+	font-size: 10px;
+	color: #7F7F7F;
+	padding-bottom: 10px;
+}
+
+.individualtotals {
+	margin-right: 65px;
+}
+
+.shippingcostnumbers {
+	padding-top: 4px;
+	padding-bottom: 5px
+}
+
+.cartbottom {
+	display: flex;
+	flex-direction: row;
+}
+
+.continuecontainer {
+	margin-left: 40%
+}
+
+.continuebutton {
+	color: #FFFFFF;
+	border: solid 1px grey;
+	background-color: #95F204;
+	padding: 5px 40px 5px 40px;
+	font-size: 13px;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.continuebutton:hover {
+	background-color: #70B603;
+}
+
+.totalbuycost {
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 150px;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+.totalcostmoney {
+	font-size: 15px;
+	font-weight: bold;
+	margin-right: 52px;
+	margin-top: 10px;
+}
+
+.landingarea {
+	margin-left: 120px;
+	margin-top: 82px;
+}
+
+.landingpagetext {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.welcome {
+	margin-top: 170px;
+	font-size: 24px;
+}
+
+.landinginfotext {
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+.projectlink {
+	margin-top: 30px;
+	font-size: 30px;
+	border: solid 2px black;
+	padding: 5px 5px 5px 5px ; 
+	border-radius: 10px;
+}
+
+.holidays {
+	font-size: 24px;
+	margin-top: 50px;
+}
+
+.regards {
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.arttu {
+	font-size: 24px;
+	margin-top: 15px;
+}
+
+.santeri {
+	font-size: 24px;
+	margin-top: 5px;
 }

@@ -3,24 +3,196 @@
 <head>
 	<link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css"/>
 	<link rel="stylesheet" href="styles.css"/>
+	<meta charset="UTF-8">
 	<title>
+		Shopping cart
 	</title>
 </head>
 
 <body>
 	<div class="container">
 		<div class="TopPanel">
+			<div class="return">
+				<a href="Frontpage.html"><i class="fas fa-long-arrow-alt-left"></i></a>
+			</div>
 			<div style="width: 250px">
 				<a href="Frontpage.html"><img src="logo.png" alt="logo" style="display: block; border: 0px; width:92px; height:82px; padding-left: 79px;"></a>
 			</div>
 			<div>
-				<input id="search" type="text" placeholder="Search">
+				<input id="search" type="text" placeholder="  Search">
+			</div>
+			<div>
+				<i class="fas fa-search"></i>
 			</div>
 			<div class="panelTD FirstButton">
-				<button class="panelButton">Account</button>
+				<button class="panelButton"><i class="fas fa-user"></i>&nbsp;&nbsp;&nbsp;Account</button>
 			</div>
 			<div class="panelTD">
-				<button class="panelButton">Cart</button>
+				<a href="Shoppingcart.html"><button class="panelButton"><i class="fas fa-shopping-cart blackcart"></i>&nbsp;&nbsp;Cart</button></a>
+			</div>
+		</div>
+		<div class="sidebarshop">
+		</div>
+		<div class=maincartarea>
+			<div class="ShopCart">
+				<p><i class="fas fa-shopping-cart bluecart"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shopping Cart (3)</p>
+			</div>
+			<hr style="width:auto;max-width:1220px;text-align:left;margin-left:25px;">
+			<div class="CartItem">
+				<div class="Itempicture">
+					<div>
+						<a href="Detailedview.html"><img src="Iphone 12.png" alt="Iphone 12" style="height: 120px;"></a>
+					</div>
+				</div>
+				<div class="Cartproductinfo">
+					<div class="Cartproductname">
+						<a href="Detailedview.html">Iphone 12 128GB Green</a>
+					</div>
+					<div class="productnumber">
+						Product number: 01005612
+					</div>
+				</div>
+				<div class="minus">
+					-
+				</div>
+				<div class="buyamount">
+					<div class="amount">
+						Amount
+					</div>
+					<div class="amountcounter">
+						1
+					</div>
+				</div>
+				<div class="plus">
+					+
+				</div>
+				<div>
+					<i class="far fa-trash-alt"></i>
+				</div>
+				<div class="pricestuff">
+					<div class="pricetext">
+						Price
+					</div>
+					<div class="priceamount">
+						699,00 €
+					</div>
+				</div>
+			</div>
+			<hr style="width:auto;max-width:1220px;text-align:left;margin-left:25px;">
+			<div class="CartItem">
+				<div class="Itempicture">
+					<div>
+						<a href="Detailedview.html"><img src="Oneplus 6.png" alt="Oneplus 6" style="height: 120px;"></a>
+					</div>
+				</div>
+				<div class="Cartproductinfo">
+					<div class="Cartproductname">
+						<a href="Detailedview.html">Oneplus 6 128GB Black</a>
+					</div>
+					<div class="productnumber">
+						Product number: 01007912
+					</div>
+				</div>
+				<div class="minus">
+					-
+				</div>
+				<div class="buyamount">
+					<div class="amount">
+						Amount
+					</div>
+					<div class="amountcounter">
+						1
+					</div>
+				</div>
+				<div class="plus">
+					+
+				</div>
+				<div>
+					<i class="far fa-trash-alt"></i>
+				</div>
+				<div class="pricestuff">
+					<div class="pricetext">
+						Price
+					</div>
+					<div class="priceamount">
+						399,00 €
+					</div>
+				</div>
+			</div>
+			<hr style="width:auto;max-width:1220px;text-align:left;margin-left:25px;">
+			<div class="CartItem">
+				<div class="Itempicture">
+					<div>
+						<a href="Detailedview.html"><img src="Honor 8S.png" alt="Honor 8S" style="height: 120px;"></a>
+					</div>
+				</div>
+				<div class="Cartproductinfo">
+					<div class="Cartproductname">
+						<a href="Detailedview.html">Honor 8S 32GB Blue</a>
+					</div>
+					<div class="productnumber">
+						Product number: 01004312
+					</div>
+				</div>
+				<div class="minus">
+					-
+				</div>
+				<div class="buyamount">
+					<div class="amount">
+						Amount
+					</div>
+					<div class="amountcounter">
+						1
+					</div>
+				</div>
+				<div class="plus">
+					+
+				</div>
+				<div>
+					<i class="far fa-trash-alt"></i>
+				</div>
+				<div class="pricestuff">
+					<div class="pricetext">
+						Price
+					</div>
+					<div class="priceamount">
+						119,00 €
+					</div>
+				</div>
+			</div>
+			<hr style="width:auto;max-width:1220px;text-align:left;margin-left:25px;">
+			<div class="totalcosts">
+				<div class="totalcosttext">
+					<div class="itemstotalcost">
+						Items
+					</div>
+					<div class="Shippingcosttext">
+						Shipping
+					</div>
+					<div class="deliverytime">
+						Estimated delivery 3-5 days
+					</div>
+				</div>
+				<div class="individualtotals">
+					<div class="itemstotalcostnumbers">
+						1217,00 €
+					</div>
+					<div class="shippingcostnumbers">
+						0 €
+					</div>
+				</div>
+			</div>
+			<hr style="width:300px;max-width:280px;text-align:left;margin-left:auto;margin-right:36px;">
+			<div class="cartbottom">
+				<div class="continuecontainer">
+					<button class="continuebutton">Continue</button>
+				</div>
+				<div class="totalbuycost">
+					Total
+				</div>
+				<div class="totalcostmoney">
+					1217.00 €
+				</div>
 			</div>
 		</div>
 		 
@@ -35,26 +207,26 @@
 				<tr>
 					<td><h2>Working for us</h2></td>
 					<td><h2>Contact information</h2></td>
-					<td><h2><i class="fas fa-phone-alt"></i>+358 0200 20202</h2></td>
-					<td><h2><i class="fab fa-facebook-square">Facebook</h2></td>
+					<td><h2><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;+358 0200 20202</h2></td>
+					<td><h2><i class="fab fa-facebook-square">&nbsp;&nbsp;Facebook</h2></td>
 				</tr>
 				<tr>
 					<td><h2>History of the company</h2></td>
 					<td><h2>Company information</h2></td>
-					<td><h2><i class="fas fa-envelope"></i>customer.service@phonebook.com</h2></td>
-					<td><h2><i class="fab fa-twitter-square">Twitter</h2></td>
+					<td><h2><i class="fas fa-envelope"></i>&nbsp;&nbsp;customer.service@phonebook.com</h2></td>
+					<td><h2><i class="fab fa-twitter-square">&nbsp;&nbsp;Twitter</h2></td>
 				</tr>
 				<tr>
 					<td><h2>Investor relations</h2></td>
 					<td><h2>Payment methods</h2></td>
 					<td><h2>Return & Shipping policies</h2></td>
-					<td><h2><i class="fab fa-instagram"></i>Instagram</h2></td>
+					<td><h2><i class="fab fa-instagram"></i>&nbsp;&nbsp;Instagram</h2></td>
 				</tr>
 				<tr>
 					<td><h2>Blog</h2></td>
 					<td><h2>Terms of service</h2></td>
 					<td><h2>Frequently asked questions</h2></td>
-					<td><h2><i class="fab fa-youtube"></i>Youtube</h2></td>
+					<td><h2><i class="fab fa-youtube"></i>&nbsp;&nbsp;Youtube</h2></td>
 				</tr>
 				<tr>
 					<td><h2></h2></td>
@@ -63,6 +235,9 @@
 					<td><h2></h2></td>
 				</tr>
 			</table>
+			<div class="copyright">
+				© 2020 PhoneBooth Oy,  all rights reserved
+			</div>
 		</div>
 </div>
 </body>
