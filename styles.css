@@ -272,6 +272,10 @@ body {
 	outline: none;
 }
 
+.cartButton:hover {
+	background-color: #70B603;
+}
+
 .cartText {
 	font-size: 14px;
 	margin-bottom: 7px;
@@ -858,4 +862,9 @@ input[type=number] {
 .santeri {
 	font-size: 24px;
 	margin-top: 5px;
+	padding-bottom: 260px;
+}
+
+a:link, a:visited {
+    color: blue;
 }
