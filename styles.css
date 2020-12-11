@@ -28,7 +28,8 @@ body {
 	height: 40px;
 	text-align: middle;
 	border: 0px;
-	border-radius: 7px
+	border-radius: 7px;
+	outline: none;
 }
 
 .panelButton:hover {
@@ -622,6 +623,7 @@ input[type=number] {
 	border: 0px;
 	font-size: 16px;
 	font-weight: bold;
+	outline: none;
 }
 
 .BuyButton:hover {
@@ -794,6 +796,7 @@ input[type=number] {
 	border-radius: 5px;
 	margin-top: 5px;
 	margin-bottom: 20px;
+	outline: none;
 }
 
 .continuebutton:hover {
